@@ -7,6 +7,7 @@ public class Main {
         String classPath = System.getProperty("java.class.path");
 
         ProcessBuilder pb = new ProcessBuilder(javaBin, "-cp", classPath, "Inverter");
+
         pb.redirectError(ProcessBuilder.Redirect.INHERIT);
 
         try {
