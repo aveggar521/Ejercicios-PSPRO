@@ -2,8 +2,7 @@ import java.io.*;
 
 public class Main {
     public void show() {
-        String javaHome = System.getProperty("java.home");
-        String javaBin = javaHome + File.separator + "bin" + File.separator + "java";
+        String javaBin = System.getProperty("java.home") + File.separator + "bin" + File.separator + "java";
         String classPath = System.getProperty("java.class.path");
 
         ProcessBuilder pb = new ProcessBuilder(javaBin, "-cp", classPath, "Inverter");
