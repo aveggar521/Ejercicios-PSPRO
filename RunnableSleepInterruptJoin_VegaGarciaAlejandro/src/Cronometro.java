@@ -20,6 +20,7 @@ public class Cronometro implements Runnable {
             Thread.currentThread().interrupt();
         }
     }
+
     public static void main(String[] args) {
         System.out.println("Pulsa Intro para comenzar el cronómetro.");
 
