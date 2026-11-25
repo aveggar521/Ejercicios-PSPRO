@@ -1,2 +1,5 @@
 # Zips de entrega duplicados (el codigo ya esta en las carpetas)
 *.zip
+
+# Configuracion local de IntelliJ (no se sube)
+**/.idea/workspace.xml
